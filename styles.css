@@ -1,0 +1,80 @@
+/* General body styling with background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d3d3d3; /* Light grey background */
+  padding: 20px;
+}
+
+/* Resume Container with Border */
+.resume-container {
+  background-color: white;
+  border: 2px solid black; /* Black border */
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Header Section with Profile Image */
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.personal-info {
+  flex-grow: 1;
+}
+
+/* Heading Colors with Black Highlight */
+h1, h2 {
+  color: yellow; /* Yellow color for headings */
+  background-color: rgb(12, 12, 12); /* Black highlight for headings */
+  padding: 5px;
+  -webkit-text-fill-color: white;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Text Color */
+p, li {
+  color: black; /* Black text color */
+}
+
+/* Sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* List Styles */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
